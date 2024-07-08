@@ -6,6 +6,7 @@
     <title>Noah Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="mediaqueries.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -131,7 +132,7 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h3>MySQL</h3>
+                                <h3>MySQL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
@@ -195,6 +196,76 @@
         </div>
         <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Pick One" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">PickOne Mobile App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NRenella/pickone'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://play.google.com/store/apps/details?id=com.atro.pickone&hl=en_US'">
+                            App Store
+                        </button>
+                    </div>
+                    <button class="btn btn-color-2 project-btn read-more" onclick="toggleText(this)">
+                        Read More <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="more-text">
+                        <p>This is the additional text that will be revealed when the button is clicked.</p>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Tableau Movie Data" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Movie Data Visualization</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NRenella/MovieDataVisualization'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://10ay.online.tableau.com/#/site/ntrenella89e985a6f7/views/MovieVisual/DataDashboard?:embed=n&:iid=1&:origin=card_share_link'">
+                            Tableau
+                        </button>
+                    </div>
+                    <button class="btn btn-color-2 project-btn read-more" onclick="toggleText(this)">
+                        Read More <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="more-text">
+                        <p>This is the additional text that will be revealed when the button is clicked.</p>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Custom Ray Tracer" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Custom Ray Tracer</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NRenella/Custom-Ray-Tracer'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NRenella/Custom-Ray-Tracer/tree/main/data/tests'">
+                            Demo Tests
+                        </button>
+                    </div>
+                    <button class="btn btn-color-2 project-btn read-more" onclick="toggleText(this)">
+                        Read More <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="more-text">
+                        <p>This is the additional text that will be revealed when the button is clicked.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    
     <script src="script.js"></script>
 </body>
 </html>
