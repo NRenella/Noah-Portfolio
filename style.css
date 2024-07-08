@@ -176,10 +176,8 @@ section {
 }
 
 .profile-pic-change{
-    border-radius: 2;
+    border-radius: 50%;
 }
-
-
 
 .section__text{
     align-self: center;
@@ -311,4 +309,10 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+/* EXPERIENCE */
+
+#experience {
+    position:relative;
 }
