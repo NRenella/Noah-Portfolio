@@ -15,6 +15,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -31,6 +32,7 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
 
@@ -129,102 +131,157 @@
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Work Experience</h1>
         <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Languages</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Java</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>C++</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Dart</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>MySQL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>HTML / CSS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/calpolypomona.png" alt="mlr searcher" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Machine Learning Researcher</h2>
+                        <p class="job-text">In this role, I utilized a Scrum-style work environment to conduct research on machine learning methods for detecting and isolating weeds and strawberry plants. My responsibilities were as follows:</p>
+                        <button class="btn btn-color-2 project-btn read-more" onclick="toggleText(this)">
+                            Read More <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="more-text">
+                            <p class="job-text">• Researched and developed machine learning algorithms in Python code utilizing TensorFlow, capable of classifying and locating weeds and strawberry plants. <br>
+                                • Collaborated with a team of students to deploy the machine learning models onto an aerial vehicle, which would communicate with a ground vehicle to provide real-time detection and removal. <br>
+                                • Managed and analyzed large datasets of plant values to correlate ground truth with multispectral UAV values.</p>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/ptblogo.png" alt="ptb logo" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">IT and Customer Service</h2>
+                        <p class="job-text">In this position, I worked directly with the owner and workers of the business to manage spreadsheets and handle customer orders. My responsibilities were as follows:</p>
+                        <button class="btn btn-color-2 project-btn read-more" onclick="toggleText(this)">
+                            Read More <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="more-text">
+                            <p class="job-text">• Maintained all inventory and customer purchases, whether walk-in, phone call, or online. <br>
+                                • Created online spreadsheets used to calculate costs, organize company inventory, and catalog orders. <br>
+                                • Provided customer service to customers looking for specific items and ensured that sold items were removed from the inventory database and shipped.</p>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/dhslogo.png" alt="dhs logo" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Peer Tutor</h2>
+                        <p class="job-text">This position allowed me to provide face-to-face assistance to other students who required help. I would have as many as four tutees in a given week. My responsibilities were as follows:</p>
+                        <button class="btn btn-color-2 project-btn read-more" onclick="toggleText(this)">
+                            Read More <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="more-text">
+                            <p class="job-text">• Visited classrooms as a speaker to provide assistance and guidance, as well as answer any questions students may have. <br>
+                                • Provided learning assistance to students in any academic subject and homework. <br>
+                                • Communicated one-on-one with students and collaborated with other tutors to help out the tutees.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Development Tools</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Visual Studio Code</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>GitHub</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Tableau</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Microsoft Excel</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Jupyter Notebook</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>REST API</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
+            </div>
+            
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Some of My</p>
+        <h1 class="title">Skills</h1>
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Languages</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Java</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>C++</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Dart</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>MySQL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>HTML / CSS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Development Tools</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Visual Studio Code</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Tableau</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Microsoft Excel</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Jupyter Notebook</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>REST API</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>

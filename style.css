@@ -386,6 +386,15 @@ article .icon{
 
 }
 
+.job-text{
+    text-align: left;
+}
+
+/* SKILLS */
+
+#skills {
+    position:relative;
+}
 
 /* PROJECTS */
 
