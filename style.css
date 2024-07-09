@@ -384,15 +384,15 @@ article .icon{
 }
 
 .more-text {
-    height: 0; /* Initially hide the text */
-    overflow: hidden; /* Hide overflow */
-    transition: height 0.3s ease; /* Smooth transition for height */
+    height: 0; 
+    overflow: hidden; 
+    transition: height 0.3s ease;
 }
 .project-btn .fa-bars {
-    margin-left: 8px; /* Space between text and icon */
+    margin-left: 8px;
 }
 
 .more-text.open {
-    height: auto; /* Expand to show text */
+    height: auto;
 }
 
